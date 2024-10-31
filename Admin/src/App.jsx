@@ -12,7 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export const backendUrl = "http://localhost:4000"
+export const backendUrl = "https://mern-ecoomerce-backend.onrender.com"
 export const currency = "₹"
 
 function App() {
