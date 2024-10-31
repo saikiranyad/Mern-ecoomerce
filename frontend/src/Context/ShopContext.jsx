@@ -10,7 +10,7 @@ const ShopContextProvider = (props) => {
     const currency = "₹";
     const deliveryfee = 10;
     // const backendUrl = import.meta.env.VITEBACKEND;
-    const backendUrl = 'http://localhost:4000'
+    const backendUrl = 'https://mern-ecoomerce-backend.vercel.app/'
     const [search, setSearch] = useState('');
     const [showsearch, setShowSearch] = useState(false);
     const [cartItems, setCartItems] = useState({});
